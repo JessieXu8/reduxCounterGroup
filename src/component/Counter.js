@@ -31,7 +31,7 @@ class Counter extends Component {
           <button onClick={()=>setTimeout(() => {
             onIncrement(index)
           }, 1000)}>
-           +(delay)
+           Increment Async
           </button>
         </p >
     );
